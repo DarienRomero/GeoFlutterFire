@@ -13,15 +13,15 @@
          additional functionality it is fine to subclass or reimplement
          FlutterApplication and put your custom class here. -->
     <application
-        android:name="io.flutter.app.FlutterApplication"
+        android:name="${applicationName}"
         android:label="geoflutterfire_example"
         android:icon="@mipmap/ic_launcher">
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
         <!-- TODO: Add your Google Map API Key -->
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"/>
+            android:value="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"/>
         <activity
-            android:name=".MainActivity"
+            android:name="io.flutter.embedding.android.FlutterActivity"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
@@ -39,5 +39,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
     </application>
 </manifest>

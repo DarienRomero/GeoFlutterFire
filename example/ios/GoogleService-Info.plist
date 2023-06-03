@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>32056226234-8fjcuqi7fglfosq0ei862v0pd0tuu7j5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.32056226234-8fjcuqi7fglfosq0ei862v0pd0tuu7j5</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>32056226234-7v5brane715jb2lt9flq6psqr4n4vhda.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCVVQ_MwFrbA3Pj9AxTFGeg2hh_qubJq74</string>
+	<key>GCM_SENDER_ID</key>
+	<string>32056226234</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.noeatsleepdev.geoflutterfireExample</string>
+	<key>PROJECT_ID</key>
+	<string>mirutadev-59e38</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mirutadev-59e38.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:32056226234:ios:5b0f850ff79b59c551ed83</string>
+</dict>
+</plist>
